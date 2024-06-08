@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body class="scroll">
+    <header class="encabezado">
+      <nav class="navegacion">
+        <a class="navegacion__enlace" href="#presentacion">
+          <h2 class="navegacion__titulo">Portfolio Técnico</h2>
+        </a>
+        <ul class="enlaces">
+          <li class="enlaces__item">
+            <a class="enlaces__enlace" href="#presentacion">Inicio</a>
+          </li>
+          <li class="enlaces__item">
+            <a class="enlaces__enlace" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="enlaces__item">
+            <a class="enlaces__enlace" href="#proyectos">Proyectos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="principal">
+      <section class="presentacion" id="presentacion">
+        <div class="presentacion__contenedor_info">
+          <h1 class="presentacion__titulo">Emmanuel Sandoval</h1>
+          <p class="presentacion__parrafo">
+            Permítanme presentarme
+            y compartirles mi entusiasmo por estas disciplinas creativas.
+            Es un placer dirigirme a ustedes en calidad de estudiante de diseño
+            gráfico con habilidades adicionales en fotografía y una pasión 
+            creciente por el desarrollo de páginas web. 
+            Me considero una persona creativa, apasionada y 
+            comprometida con la excelencia en todo lo que hago.
+          </p>
+          <div class="presentacion__contenedor_botones">
+            <a href="#sobre-mi" class="boton" role="button">Sobre mí</a>
+            <a
+              href="./assets/docs/cv.pdf"
+              target="_blank"
+              class="boton boton_oscuro"
+              role="button"
+              >Descargar C.V</a
+            >
+          </div>
+        </div>
+      </section>
+      <article class="articulo sobre_mi" id="sobre-mi">
+        <h2 class="articulo__titulo">Un poco sobre mí</h2>
+        <div class="articulo__contenedor_descripciones">
+          <section class="seccion_descripcion">
+            <div class="seccion_descripcion__porta_retrato">
+              <img
+                class="seccion_descripcion__imagen"
+                src="./assets/images/profile/trabajo2.jpg"
+                alt="foto trabajando en la oficina"
+                title=" Ve siempre en contra de lo preconcebido"
+              />
+            </div>
+            <div
+              class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+              aria-label="descripcion personal"
+            >
+              <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                Mi historia
+              </h3>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+              Desde muy joven, he sentido una profunda conexión con las computadoras.
+              Y es de esperarse cuando sos hijo de un Técnico en Informática.
+              A través del diseño gráfico, yo he aprendido
+              a transmitir mensajes poderosos y emocionales utilizando elementos
+              como el color, la tipografía y la composición.
+              </p>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+              Mi objetivo es utilizar estas habilidades para crear
+              piezas visuales que impacten y conecten con el público
+              objetivo.Confío en que seguire creciendo profesionalmente
+              porque constantemente me desafío a mi mismo.
+              </p>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+               
+              </p>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+                
+              </p>
+            </div>
+          </section>
+          <section class="seccion_descripcion">
+            <div
+              class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+              aria-label="descripcion personal"
+            >
+              <h3 class="seccion_descripcion__titulo" id="mis_hobbies_titulo">
+                Mis hobbies
+              </h3>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mis hobbies"
+                aria-describedby="mis_hobbies_titulo"
+              >
+              Me encanta jugar ajedrez, leer libros de mi agrado y ver series históricas.
+              Además de mi pasión por el diseño gráfico, también tengo una gran
+              fascinación por la fotografía. A través de mi lente, busco capturar
+              momentos únicos y transmitir emociones a través de imágenes. Mi 
+              experiencia en fotografía me ha permitido desarrollar un enfoque 
+              creativo y una atención meticulosa a los detalles. Considero que la
+              combinación de diseño gráfico y fotografía me brinda una perspectiva
+              única y me permite abordar proyectos desde diferentes ángulos.
+              </p>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mis hobbies"
+                aria-describedby="mis_hobbies_titulo"
+              >
+                
+              </p>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mis hobbies"
+                aria-describedby="mis_hobbies_titulo"
+              >
+                 
+              </p>
+            </div>
+            <div   class="seccion_descripcion__porta_retrato">
+              <img
+                  class="seccion_descripcion__imagen seccion_descripcion__imagen_variante"
+                  src="./assets/images/profile/trabajo3.jpg"
+                  alt="foto mientras me encontraba en una reunion de trabajo"
+                  title="El arte de la observación"
+              />
+            </div>
+          </section>
+          <section class="seccion_descripcion">
+            <div class="seccion_descripcion__porta_retrato">
+              <img
+                class="seccion_descripcion__imagen"
+                src="./assets/images/profile/trabajo4.jpg"
+                alt="foto trabajando en la oficina"
+                title="Lo único que se , es que no se nada"
+              />
+            </div>
+            <div
+              class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+              aria-label="descripcion personal"
+            >
+              <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                Nueva Pasión
+              </h3>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+              Recientemente, he decidido expandir mis habilidades y adentrarme en el
+              emocionante mundo del desarrollo de páginas web. Aunque aún estoy en
+              las primeras etapas de este aprendizaje, estoy comprometido en adquirir
+              conocimientos y habilidades técnicas para crear experiencias digitales
+              cautivadoras y funcionales. Estoy emocionado por explorar nuevas 
+              posibilidades y fusionar mis habilidades en diseño gráfico y fotografía
+              con el desarrollo web.
+              </p>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+              </p>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+              </p>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+              </p>
+            </div>
+          </section>
+        </div>
+      </article>
+      <article 
+      class="articulo proyectos" id="proyectos">
+        <h2 class="articulo__titulo">Mis proyectos</h2>
+        <div class="contenedor_tarjetas_grid">
+          <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+            >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/images/proyectos/paisaje.jpg"
+              alt="imagen del proyecto"
+              title="proyecto 1"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_1">Fotografía de Eventos</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_1"
+              >
+              En este historial de trabajo hay algunos ejemplos de
+              la captura de la personalidad y esencia de mis queridos 
+              clientes a traves de la fotografía. 
+
+              </p>
+              <a
+              href="./assets/docs/pf.pdf"
+              target="_blank"
+              class="boton boton_oscuro"
+              role="button"
+              >Ver Proyecto</a>
+            </div>
+          </article>
+          <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+          >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/images/proyectos/juegos.jpg"
+              alt="imagen del proyecto"
+              title="proyecto 2"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_2">Blog de Noticias</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_2"
+              >
+                En este video serán testigos del Proyecto Final de la Etapa
+                2 del Informatorio Edición 2023, donde culminamos nuestros
+                conocimientos para desarrollador en conjunto con todos los
+                miembros del Grupo 2 de la Comisión 2, un Blog de Noticias
+                referente a mi tema favorito, la tecnología.
+              </p>
+              <a
+              href="./assets/images/bg.mp4"
+              target="_blank"
+              class="boton boton_oscuro"
+              role="button"
+              >Ver Proyecto</a>
+            </div>
+          </article>
+          <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+          >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/images/proyectos/calendario.jpg"
+              alt="imagen del proyecto"
+              title="proyecto 3"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_3">Albúm Artístico</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_3"
+              >
+                En este recopilatorio de diferentes técnicas obte por 
+                dar protagonismo a la escala de grises , espero sea de 
+                su agrado.
+              </p>
+              <a
+              href="./assets/docs/bw.pdf"
+              target="_blank"
+              class="boton boton_oscuro"
+              role="button"
+              >Ver Proyecto</a>
+              >
+            </div>
+          </article>
+          <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+          >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/images/proyectos/clima.jpg"
+              alt="imagen del proyecto"
+              title="proyecto 4"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_4">Cartelería</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_4"
+              >
+                Algunos ejemplos de los tantos carteles que me tocó hacer para 
+                representar de la mejor manera la identidad visual de cada 
+                emprendimiento.
+              </p>
+              <a
+              href="./assets/docs/b.pdf"
+              target="_blank"
+              class="boton boton_oscuro"
+              role="button"
+              >Ver Proyecto</a>
+            </div>
+          </article>
+          <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+          >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/images/proyectos/calculadora.jpg"
+              alt="imagen del proyecto"
+              title="proyecto 5"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_5">Vinilos</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_5"
+              >
+                También trabaje con diseños de Vinilos Blanco y Cristal, para
+               vidrieras y stickers, pueden ver algunos ejemplos en el siguiente
+               archivo.
+              </p>
+              <a
+              href="./assets/docs/v.pdf"
+              target="_blank"
+              class="boton boton_oscuro"
+              role="button"
+              >Ver Proyecto</a>
+              >
+            </div>
+          </article>
+          <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+          >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/images/proyectos/reproductor.jpg"
+              alt="imagen del proyecto"
+              title="proyecto 6"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_6">Diseño Gráfico</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_6"
+              >
+                Última recopilación de mis trabajos como diseñador independiente 
+                desde el 2021.
+
+              </p>
+              <a href="https://drive.google.com/drive/folders/18FKhdVTDbV3sob6k9-mmIsZwFrk-6yE6?usp=drive_link" class="boton" target="_blank">Ver proyecto</a>
+            </div>
+          </article>
+        </div>
+      </article>
+      <div style="text-align: center;">
+        <pre>
+          <code>
+             
+      <p>
+        Agradezco sinceramente la oportunidad de presentarme y me encantaría tener
+        la posibilidad de contribuir con mis habilidades y conocimientos a su equipo.
+        Estoy disponible para discutir cualquier oportunidad de colaboración o para
+        responder cualquier pregunta que puedan tener.Muchas gracias por su atención
+         y consideración.
+      </p>
+      <p>
+        Atentamente,
+ 
+        Emmanuel Alejandro Sandoval.
+      </p>
+          </code>
+        </pre>
+      </div>
+     
+
+    </main>
+    <footer class="pie_de_pagina" role="contentinfo">
+      <div class="pie_de_pagina__columna">
+        <h4 class="pie_de_pagina__titulo_columna">Mis redes</h4>
+        <ul class="enlaces enlaces_redes">
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              href="https://github.com/2023sandoval"
+              target="_blank"
+              ><img
+                class="enlaces__icono"
+                src="./assets/images/logos/github-logo.png"
+                alt="logo de github"
+                title="Github"
+            /></a>
+          </li>
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              href="https://www.facebook.com/"
+              target="_blank"
+            >
+              <img
+                class="enlaces__icono"
+                src="./assets/images/logos/ig-logo.png"
+                alt="logo de instagram"
+                title="Facebook"
+              />
+            </a>
+          </li>
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              href="https://www.linkedin.com/in/emmanuel-alejandro-sandoval-10005a213/"
+              target="_blank"
+              ><img
+                class="enlaces__icono"
+                src="./assets/images/logos/x-logo.png"
+                alt="logo de X"
+                title="Linkedin"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="pie_de_pagina__columna">
+        <h4 class="pie_de_pagina__titulo_columna">Contáctame</h4>
+        <ul class="enlaces enlaces_vertical">
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              target="_blank"
+              >Mail: emmanuelsandoval3@mail.com</a>
+          </li>
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              target="_blank"
+              >Celular: 3644-701492 (Mensajes)</a>
+          </li>
+        </ul>
+      </div>
+      <div class="pie_de_pagina__columna" role="navigation">
+        <h4 class="pie_de_pagina__titulo_columna">Secciones</h4>
+        <ul class="enlaces enlaces_vertical">
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              href="#presentacion"
+              >Inicio</a
+            >
+          </li>
+          <li class="enlaces__item">
+            <a class="enlaces__enlace enlaces__enlace_footer" href="#sobre-mi"
+              >Sobre mí</a
+            >
+          </li>
+          <li class="enlaces__item">
+            <a class="enlaces__enlace enlaces__enlace_footer" href="#proyectos"
+              >Proyectos</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="pie_de_pagina__copyright">
+        <p>©️Copyright 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>
